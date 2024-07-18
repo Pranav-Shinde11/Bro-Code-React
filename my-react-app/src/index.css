@@ -1,0 +1,60 @@
+.card{
+  border: 1px solid rgb(230, 223, 223);
+  border-radius: 15px;
+  box-shadow:5px 5px 5px rgba(0, 0, 0, 0.414) ;
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+  background-color: rgb(250, 250, 242);
+}
+
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+   color: rgb(52, 52, 52); 
+}
+
+.card .card-text{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(121, 120, 120);
+}
+
+
+.card:hover {
+  transform: translateY(-10px);
+  background-color:rgb(230, 250, 235);
+  transition: transform 0.4s ease-in
+ 
+
+}
+
+
+/* .button{
+  padding: 20px;
+  background-color: aquamarine;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+} */
+
+.student{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 5px;
+  border: 1px solid rgb(117, 116, 116);
+  margin: 6px;
+  border-radius: 15px;
+  max-width: 400px;
+  /* display: inline-block; */
+  /* text-align: center; */
+
+}
