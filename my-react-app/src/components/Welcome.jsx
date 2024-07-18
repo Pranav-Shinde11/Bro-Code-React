@@ -6,9 +6,11 @@ function WelcomeGreeting(props){
 
     const loginpromp = <h2 className={styles.login}>Please Log in to Continue</h2>
 
-    if(props.isloggedin){
-        return usermessage
-    }return loginpromp
+    return(props.isloggedin ? usermessage : loginpromp)
+
+    // if(props.isloggedin){
+    //     return usermessage
+    // }return loginpromp
 
 
 }
