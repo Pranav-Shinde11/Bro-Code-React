@@ -1,5 +1,5 @@
 
-
+import propTypes from 'prop-types'
 
 function Renderlist(props){
      
@@ -38,6 +38,19 @@ function Renderlist(props){
               <ol className="list-item">{listitems}</ol>
             </>)
 
+}
+
+
+Renderlist.propTypes = {
+     category : propTypes.string,
+     items : propTypes.arrayOf(propTypes.shape({id:propTypes.number, name:propTypes.string, marks: propTypes.number , cal: propTypes.number}))
+}
+
+
+
+Renderlist.defaultProps = { 
+    category : "category",
+    items: []
 }
 
 

@@ -16,7 +16,7 @@ import Renderlist from './components/Renderlist'
 
 function App() {
 
-  const students = [{id:1, name:"Pranav", marks:77}, 
+  const students = [{id:1, name:"Pranav", marks:"sadf"}, 
                     {id:2, name:"Omkar", marks:88}, 
                     {id:3, name:"Saurabh", marks:66},
                     {id:4, name:"Sahil", marks: 55},
@@ -48,7 +48,7 @@ function App() {
        {/* <WelcomeGreeting    isloggedin={true} username="Pranav"/> */}
 
        
-       {students.length > 0 ? <Renderlist  items ={students}  category="students"/> : null }    
+       {students.length > 0 ? <Renderlist  items ={students} category="000"/> : null }    
        {fruits.length > 0 &&   <Renderlist  items ={fruits}  category="fruits"/> }
        {/* // we can apply conditining both way */}
 
