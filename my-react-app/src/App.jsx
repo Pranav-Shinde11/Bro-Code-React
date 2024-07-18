@@ -10,6 +10,7 @@ import Food from './components/food'
 import Card from './components/card'
 import Button from './components/Button'
 import Student from './components/Student'
+import WelcomeGreeting from './components/Welcome'
 
 
 function App() {
@@ -22,10 +23,12 @@ function App() {
 
        {/* <Button/> */}
 
-       <Student  name = "123" age={22} isstudent={true} />
+       {/* <Student  name = "123" age={22} isstudent={true} />
        <Student  name = "Saurabh" age={22} isstudent={false} />
        <Student  name = "Omkar" age={23} isstudent={true} />
-       <Student name = "Sahil" />
+       <Student name = "Sahil" /> */}
+
+       <WelcomeGreeting    isloggedin={false} username="Pranav"/>
 
        
     </>
