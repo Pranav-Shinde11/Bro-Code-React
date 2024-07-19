@@ -12,6 +12,8 @@ import Button from './components/Button'
 import Student from './components/Student'
 import WelcomeGreeting from './components/Welcome'
 import Renderlist from './components/Renderlist'
+import ButtonEvent from './components/clickEvent'
+import ProfilePic from './components/ProfilePic'
 
 
 function App() {
@@ -23,7 +25,7 @@ function App() {
                     {id:5, name:"Peter", marks: 99},
                     {id:6, name:"Krushna", marks:110}]
 
-  const fruits = [{id:7, name:"Mango", cal:707}, 
+  const fruits =   [{id:7, name:"Mango", cal:707}, 
                     {id:8, name:"Apple", cal:808}, 
                     {id:9, name:"Gava", cal:606},
                     {id:10, name:"Orange", cal: 550},
@@ -47,12 +49,16 @@ function App() {
 
        {/* <WelcomeGreeting    isloggedin={true} username="Pranav"/> */}
 
-       
+{/*        
        {students.length > 0 ? <Renderlist  items ={students} category="000"/> : null }    
        {fruits.length > 0 &&   <Renderlist  items ={fruits}  category="fruits"/> }
-       {/* // we can apply conditining both way */}
+       // we can apply conditining both way */}
 
        {/* <Renderlist  items ={fruits}  category="fruits"/> */}
+
+       {/* <ButtonEvent/> */}
+
+       <ProfilePic/>
 
        
     </>
