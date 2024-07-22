@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Mycomponent from './UseStateHook'
 import Counter from './counter'
-import Onchange from './assets/OnChange'
+import Onchange from './OnChange'
 
 function App() {
   const [count, setCount] = useState(0)
