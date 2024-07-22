@@ -5,6 +5,7 @@ import './App.css'
 import Mycomponent from './UseStateHook'
 import Counter from './counter'
 import Onchange from './OnChange'
+import Colorpicker from './colorpicker'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,8 @@ function App() {
     <>
       {/* <Mycomponent/> */}
       {/* <Counter/> */}
-      <Onchange/>
+      {/* <Onchange/> */}
+      <Colorpicker/>
 
     </>
   )

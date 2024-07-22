@@ -1,17 +1,11 @@
-.counter-box{
-  /* background-color: black;
-  max-width: 40%;
-  max-height: 20vh;
-  padding: 20px;
-  border-radius: 15px; */
+/* .counter-box{
   color: rgb(137, 199, 254);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 7em;
   text-align: center;
+} */
 
-}
-
-.counter-button{
+/* .counter-button{
   height: 60px;
   width: 200px;
 
@@ -23,14 +17,67 @@
   background-color: rgb(109, 254, 205);
   border: none;
   cursor: pointer;
-}
+} */
 
-.count{
-  /* margin-top: auto; */
+/* .count{
   margin-bottom: 40px;
-}
+} */
 
-.counter-button:hover{
+/* .counter-button:hover{
   background-color: rgb(104, 214, 178);
   transition: 500ms;
+} */
+
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+h1{
+  margin: 50px;
+  font-size: 2rem;
+}
+
+.color-display{
+  width:300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgba(239, 236, 236, 0.244);
+  border-radius: 25px;
+  margin-bottom: 25 px;
+  transition: 0.25s ease;
+  margin-bottom: 10px;
+}
+
+.color-display p {
+  color: (0, 0%, 20%);
+  font-size: 2rem;
+  text-align: center;
+}
+
+label{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="color"]{
+  width: 100px;
+  height: 65px;
+  padding: 6px;
+  border-radius: 15px;
+  border: 1px solid rgb(241, 245, 237);
+  margin-top: 10px;
+  border: none;
+
 }
