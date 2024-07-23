@@ -7,6 +7,7 @@ import Counter from './counter'
 import Onchange from './OnChange'
 import Colorpicker from './colorpicker'
 import UpdaterFuncCounter from './updaterFuncCounter'
+import UpdateObject from './updateObject'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +18,8 @@ function App() {
       {/* <Counter/> */}
       {/* <Onchange/> */}
       {/* <Colorpicker/> */}
-      <UpdaterFuncCounter/>
+      {/* <UpdaterFuncCounter/> */}
+      < UpdateObject/>
 
     </>
   )
