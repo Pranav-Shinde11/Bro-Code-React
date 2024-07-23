@@ -8,6 +8,7 @@ import Onchange from './OnChange'
 import Colorpicker from './colorpicker'
 import UpdaterFuncCounter from './updaterFuncCounter'
 import UpdateObject from './updateObject'
+import UpdateArrayComponent from './updateArray'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,7 +20,8 @@ function App() {
       {/* <Onchange/> */}
       {/* <Colorpicker/> */}
       {/* <UpdaterFuncCounter/> */}
-      < UpdateObject/>
+      {/* < UpdateObject/> */}
+      <UpdateArrayComponent/>
 
     </>
   )
