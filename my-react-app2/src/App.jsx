@@ -9,6 +9,7 @@ import Colorpicker from './colorpicker'
 import UpdaterFuncCounter from './updaterFuncCounter'
 import UpdateObject from './updateObject'
 import UpdateArrayComponent from './updateArray'
+import ArrayOfObjectComponent from './updateArrayOfObject'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,7 +22,8 @@ function App() {
       {/* <Colorpicker/> */}
       {/* <UpdaterFuncCounter/> */}
       {/* < UpdateObject/> */}
-      <UpdateArrayComponent/>
+      {/* <UpdateArrayComponent/> */}
+      <ArrayOfObjectComponent/>
 
     </>
   )

@@ -36,8 +36,6 @@ function UpdateArrayComponent(){
 
     )
 
-
-
 }
 
 export default UpdateArrayComponent;
