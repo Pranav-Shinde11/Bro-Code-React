@@ -13,8 +13,11 @@ function ToDoComponent(){
 
     }
     function handleaddtask(){
-        setTasks(t => [...t, newTask])
-        setnewtask("")
+        if(newTask.trim() !== ""){
+            setTasks(t => [...t, newTask])
+            setnewtask("")
+        }
+        
     }
     function handledeletetask(index){
          setTasks(tasks.filter((_, i)=> i!== index ))
