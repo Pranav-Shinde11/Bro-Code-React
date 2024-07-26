@@ -7,11 +7,11 @@ function UseEffectComponent(){
     const [heigth, setHeigth] = useState(window.innerHeight);
 
     useEffect(()=>{
-        window.addEventListener("resize" , handleresize);
+        window.addEventListener("resize" , handleresize);                  // adds the event listener when component mount 
         console.log("called");
 
         return()=>{
-            window.removeEventListener("resize" , handleresize);
+            window.removeEventListener("resize" , handleresize);            //teturn code remove the event listener when component unmounted , its good parctice to avoid  future errors
              console.log("removed");
         }
 
